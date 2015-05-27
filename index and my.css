@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html class="homePage">
+<head>
+	<!-- This is a comment! Text here will be ignored by the browser. -->
+	<meta charset="UTF-8">
+	<title>My Portfolio</title>
+	<link href="myCSS.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="container">
+  <div class="header">
+  	<h1>Jordan's Programming Portfolio</h1>
+  </div>
+  <div class="nav">
+    <h3><a href="index.html">Home</a> | <a href="Cars/index.html">1</a> | <a href="Converter/index.html">2</a> | <a href="Timeline/index.html">3</a> | <a href="../../Term 1/Bouncing_Ball/web-export/index.html">4</a></h3>
+  </div>
+  <div class="content">
+    <p><a href="Cars.html">Cars</a></p>
+    <p><a href="Converter/index.html">MPH to Knots Converter</a></p>
+    <p><a href="Timeline/index.html">Timeline</a></p>
+    <p><a href="Bouncy Ball/Bouncing_Ball.pde">Bouncy Ball</a></p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+  </div>
+  <div class="footer">
+    <h4><a href="Aboutme.html">About Me</a> | Contact | Copyright 2013 </h4>
+  </div>
+</div>
+</body>
+</html>
+
+
+
+@charset "UTF-8";
+/* This is a comment! Text here will be ignored by the browser. */
+body {
+	margin: 0 auto;
+}
+.homePage {
+	background: #222222;
+}
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+.header {
+	background: #AAAAAA;
+	text-align: center;
+	margin: 0px;
+	padding: 5;
+	float: left;
+	width: 100%;
+	height: 80px;
+	
+}
+.nav {
+	background: #BBBBBB;
+	margin: 0px;
+	padding: 5;
+	float: left;
+	width: 100%;
+	height: 60px;
+	text-align: center;
+}
+.content {
+	background: #EEEEEE;
+	margin: 0px;
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+.footer {
+	background: #777777;
+	margin: 0px;
+	float: left;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+}
